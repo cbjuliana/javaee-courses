@@ -6,6 +6,6 @@ import javax.persistence.PersistenceContext;
 public class AbstractDAO {
 	
 	@PersistenceContext(name = "cursos")
-	EntityManager em;
+	protected EntityManager em;
 
 }
